@@ -35,6 +35,13 @@
 			},
 			"content": ""
 		},
+		
+		"/html/Ruffle-Flash/968b706b3e3098a6ddaf.module.wasm": {
+			"regexLink": "/html/Ruffle-Flash/968b706b3e3098a6ddaf.module.wasm",
+			"headers": {
+				"Content-Type": "application/wasm"
+			}
+		},
 		"/html/([^?]+html).*": {
 			"contentReplace": true,
 			"regexLink": "/html/$1",

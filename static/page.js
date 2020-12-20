@@ -170,7 +170,7 @@ module.exports = function (req, res, url) {
 	res.end(
 		`<script>document.title='${title}',flashvars=${JSON.stringify(
 			params.flashvars
-		)}</script><body style="margin:0px">${toObjectString(attrs, params)}</body>${stuff.pages[url.pathname] || ""}`
+		)}</script><body style="margin:0px">${toObjectString(attrs, params)}${stuff.pages[url.pathname] || ""}<script src="/html/Ruffle-Flash/ruffle.js"></script></body>`
 	);
 	return true;
 };
